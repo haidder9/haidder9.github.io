@@ -1,0 +1,58 @@
+.Project > .Title{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+#Projects > .Title{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+
+}
+
+#Projects {
+    padding-top: 20px;
+}
+
+.Project > .Info {
+    display: flex;
+    justify-content: center;
+}
+
+#Name {
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+#Info {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.Project {
+    padding-top: 20px;
+}
+
+.Game {
+    display: flex;
+    justify-content: center;
+}
+
+#blockball {
+    display: none;
+}
+
+#blockball-soccer {
+    display: none;
+}
+.Project > .toggle {
+    display: flex;
+    justify-content: center;
+}
