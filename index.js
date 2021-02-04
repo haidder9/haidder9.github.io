@@ -1,8 +1,22 @@
-console.log("Hello");
 let showSoccer = false;
 let showVolleyball = false;
+let showBlack = false;
+
+function toggleBlack () {
+    let game = document.getElementById("blackcircle");
+    let button = document.getElementById("blackcircle-button");
+    if(!showBlack) {
+        game.style.display = "flex";
+        button.innerHTML = "Hide";
+    }
+    else {
+        game.style.display = "none";
+        button.innerHTML = "Play";
+    }
+    showBlack = !showBlack;
+}
+
 function toggleSoccer () {
-    console.log("Soccer");
     let game = document.getElementById("blockball-soccer");
     let button = document.getElementById("blockball-soccer-button");
     if(!showSoccer) {
@@ -17,7 +31,6 @@ function toggleSoccer () {
 }
 
 function toggleVolleyball () {
-    console.log("VolleyBall")
     let game = document.getElementById("blockball");
     let button = document.getElementById("blockball-button");
     if(!showVolleyball) {
@@ -30,3 +43,5 @@ function toggleVolleyball () {
     }
     showVolleyball = !showVolleyball;
 }
+
+
