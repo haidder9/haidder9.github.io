@@ -68,6 +68,14 @@ body {
 #blockball-soccer {
     display: none;
 }
+
+#swordgame {
+    display: none;
+}
+
+#blackcircle {
+    display: none;
+}
 .Project > .toggle {
     display: flex;
     justify-content: center;

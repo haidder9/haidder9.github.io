@@ -1,6 +1,21 @@
 let showSoccer = false;
 let showVolleyball = false;
 let showBlack = false;
+let showSword = false;
+
+function toggleSword () {
+    let game = document.getElementById("swordgame");
+    let button = document.getElementById("swordgame-button");
+    if(!showSword) {
+        game.style.display = "flex";
+        button.innerHTML = "Hide";
+    }
+    else {
+        game.style.display = "none";
+        button.innerHTML = "Play";
+    }
+    showSword = !showSword;
+}
 
 function toggleBlack () {
     let game = document.getElementById("blackcircle");
