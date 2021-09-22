@@ -2,6 +2,21 @@ let showSoccer = false;
 let showVolleyball = false;
 let showBlack = false;
 let showSword = false;
+let showEye = false;
+
+function toggleEyeNinja () {
+    let game = document.getElementById("eyeninja");
+    let button = document.getElementById("eyeninja-button");
+    if(!showSword) {
+        game.style.display = "flex";
+        button.innerHTML = "Hide";
+    }
+    else {
+        game.style.display = "none";
+        button.innerHTML = "Play";
+    }
+    showEye = !showEye;
+}
 
 function toggleSword () {
     let game = document.getElementById("swordgame");
