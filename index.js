@@ -7,7 +7,7 @@ let showEye = false;
 function toggleEyeNinja () {
     let game = document.getElementById("eyeninja");
     let button = document.getElementById("eyeninja-button");
-    if(!showSword) {
+    if(!showEye) {
         game.style.display = "flex";
         button.innerHTML = "Hide";
     }
